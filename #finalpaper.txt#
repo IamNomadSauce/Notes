@@ -1,0 +1,57 @@
+
+
+Multi-factor authentication
+1. What is Multi-factor authentication?
+Multi-factor authentication (MFA) is an authentication method in which a computer user is granted access only after successfully presenting two or more pieces of evidence (or factors) to an authentication mechanism: knowledge (something the user and only the user knows), possession (something the user and only the user has), and inherence (something the user and only the user is).
+Two-factor authentication (also known as 2FA) is a type, or subset, of multi-factor authentication. It is a method of confirming users' claimed identities by using a combination of two different factors: 1) something they know, 2) something they have, or 3) something they are.
+ 
+
+ 
+2. What are three examples of specific vendor implementations (commercial or open source) of the technology?
+Yubico Yubikey
+RSA SecurID
+Solo…
+(Find a biometric one)
+2FA apps: google authenticator, authy, etc 
+ 
+ 
+ 
+
+3. What benefits could this technology provide for an organization?
+Advantages[edit]
+No additional tokens are necessary because it uses mobile devices that are (usually) carried all the time.
+As they are constantly changed, dynamically generated passcodes are safer to use than fixed (static) log-in information.
+Depending on the solution, passcodes that have been used are automatically replaced in order to ensure that a valid code is always available, transmission/reception problems do not therefore prevent logins.
+ 
+ 
+
+4. What drawbacks/challenging might there be to implementing and maintaining the technology (ie. cost, usability, disruption, other side effects)?
+Disadvantages[edit]
+Users may still be susceptible to phishing attacks. An attacker can send a text message that links to a spoofed website that looks identical to the actual website. The attacker can then get the authentication code, user name and password.[12]
+A mobile phone is not always available - they can be lost, stolen, have a dead battery, or otherwise not work.
+Mobile phone reception is not always available - large areas, particularly outside of towns, lack coverage.
+SIM cloning gives hackers access to mobile phone connections. Social-engineering attacks against mobile-operator companies have resulted in the handing over of duplicate SIM cards to criminals.[13]
+Text messages to mobile phones using SMS are insecure and can be intercepted by IMSI-catchers. Thus third parties can steal and use the token.[14]
+Account recovery typically bypasses mobile-phone two-factor authentication.[15]
+Modern smartphones are used both for receiving email and SMS. So if the phone is lost or stolen and is not protected by a password or biometric, all accounts for which the email is the key can be hacked as the phone can receive the second factor.
+Mobile carriers may charge the user for messaging fees.
+However, many multi-factor authentication approaches remain vulnerable to phishing,[29] man-in-the-browser, and man-in-the-middle attacks.[30]
+ 
+ 
+
+5. Which particular implementation would you recommend, and why?
+Depends on the organization:
+There are drawbacks to multi-factor authentication that are keeping many approaches from becoming widespread. Some consumers have difficulty keeping track of a hardware token or USB plug. Many consumers do not have the technical skills needed to install a client-side software certificate by themselves. Generally, multi-factor solutions require additional investment for implementation and costs for maintenance. Most hardware token-based systems are proprietary and some vendors charge an annual fee per user. Deployment of hardware tokens is logistically challenging. Hardware tokens may get damaged or lost and issuance of tokens in large industries such as banking or even within large enterprises needs to be managed. In addition to deployment costs, multi-factor authentication often carries significant additional support costs. A 2008 survey[33] of over 120 U.S. credit unions by the Credit Union Journal reported on the support costs associated with two-factor authentication.
+Research into deployments of multi-factor authentication schemes[34] has shown that one of the elements that tends to impact the adoption of such systems is the line of business of the organization that deploys the multi-factor authentication system. Examples cited include the U.S. federal government, which employs an elaborate system of physical tokens (which themselves are backed by robust Public Key Infrastructure), as well as private banks, which tend to prefer multi-factor authentication schemes for their customers that involve more accessible, less expensive means of identity verification, such as an app installed onto a customer-owned smartphone. Despite the variations that exist among available systems that organizations may have to choose from, once a multi-factor authentication system is deployed within an organization, it tends to remain in place, as users invariably acclimate to the presence and
+use of the system and embrace it over time as a normalized element of their daily process of interaction with their relevant information system.
+ 
+Organization that uses it:
+https://www.pcmag.com/news/367026/google-phishing-attacks-that-can-beat-two-factor-are-on-the
+In July, Google reported that it had given all its employees security keys as a way to stop account takeovers on work-related accounts.
+On average, the company encounters 100 million phishing messages per day
+But in the past only the most sophisticated hackers, such as nation-state cyberspies, employed phishing attacks that could defeat two-factor authentication, he said. "Now it's available as an open-source phishing framework," he added. "So it is an order of magnitude more prevalent than before."
+ 
+You can write the paper without defining the organization which would use the technology, or you can define a fictional organization (ie what industry, what applications are used, how many users, etc) which would use the technology. If you are going to use an imaginary organization, please do not spend more than a paragraph describing the hypothetical details. 
+Your paper should be no less than 4 pages and no more than 10 pages. Paper should be double spaced, size 12 font (times new roman, arial, calibri or other standard font). 
+Please include at least three sources which you used during your research. You can use whichever citation format you are comfortable with.
+
