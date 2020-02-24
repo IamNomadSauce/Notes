@@ -1,0 +1,15 @@
+* Overview
+ - My first custom PC bulid. I want to take a Mac Pro G5, replacing the out-dated
+   hardware components with a more powerful and modern system. Upgradeablity is a 
+   factor as well as versatility.
+* Parts
+ - [X] Case - Mac Pro G5
+ - [ ] Motherboard
+ - [ ] CPU - AMD Ryzen 5 3600
+ - [ ] GPU
+ - [ ] Ram
+ - [ ] Hard Drive
+ - [ ] Power Supply
+ - [ ] NIC
+* Activity Log
+ - <2020-02-21 Fri> Found a G5 Mac Pro on LetGo for $30
